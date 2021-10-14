@@ -13,7 +13,6 @@ There are two datasets used in this assignment:
 Dataset 1: The Wikipedia politicians by country dataset can be found on [Figshare](https://figshare.com/articles/dataset/Untitled_Item/5513449). We download and unzip the data file named page_data.csv.
 Dataset 2: The population data is available in CSV format as [WPDS_2020_data.csv](https://docs.google.com/spreadsheets/d/1CFJO2zna2No5KqNm9rPK5PCACoXKzb-nycJFhV689Iw/edit#gid=283125346). This dataset is drawn from the world population data sheet published by the Population Reference Bureau.
 
-
 ## Quality Predictions
 In our analysis we're using a machine learning system called ORES. This was originally an acronym for "Objective Revision Evaluation Service" but was simply renamed “ORES”. ORES is a machine learning tool that can provide estimates of Wikipedia article quality. 
 
@@ -27,5 +26,19 @@ The article quality estimates are, from best to worst:
 
 These were learned based on articles in Wikipedia that were peer-reviewed using the Wikipedia content assessment procedures. These quality classes are a sub-set of quality assessment categories developed by Wikipedia editors. For a given rev_id, ORES will assign one of these 6 categories.
 
+## Project Structure
 
+.
+├── LICENSE
+├── README.md
+├── cleaned_data
+│   ├── no_prediction_data.csv
+│   ├── wp_wpds_countries-no_match.csv
+│   └── wp_wpds_politicians_by_country.csv
+├── hcds-a2-bias.ipynb
+├── src
+│   └── hcds-a2-bias.ipynb
+└── unclean_data
+    ├── WPDS_2020_data.csv
+    └── page_data.csv
 
