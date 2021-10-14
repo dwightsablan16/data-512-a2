@@ -27,7 +27,7 @@ The article quality estimates are, from best to worst:
 These were learned based on articles in Wikipedia that were peer-reviewed using the Wikipedia content assessment procedures. These quality classes are a sub-set of quality assessment categories developed by Wikipedia editors. For a given rev_id, ORES will assign one of these 6 categories.
 
 ## Project Structure
-'''
+```
 .
 ├── LICENSE
 ├── README.md 
@@ -40,5 +40,6 @@ These were learned based on articles in Wikipedia that were peer-reviewed using 
 │   └── hcds-a2-bias.ipynb 
 └── unclean_data 
     ├── WPDS_2020_data.csv 
-    └── page_data.csv '''
+    └── page_data.csv 
+```
 
