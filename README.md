@@ -27,18 +27,18 @@ The article quality estimates are, from best to worst:
 These were learned based on articles in Wikipedia that were peer-reviewed using the Wikipedia content assessment procedures. These quality classes are a sub-set of quality assessment categories developed by Wikipedia editors. For a given rev_id, ORES will assign one of these 6 categories.
 
 ## Project Structure
-
+'''
 .
-├── LICENSE <br/>
-├── README.md <br/>
-├── cleaned_data <br/>
-│   ├── no_prediction_data.csv <br/>
-│   ├── wp_wpds_countries-no_match.csv <br/>
-│   └── wp_wpds_politicians_by_country.csv <br/>
-├── hcds-a2-bias.ipynb <br/>
-├── src <br/>
-│   └── hcds-a2-bias.ipynb <br/>
-└── unclean_data <br/>
-    ├── WPDS_2020_data.csv <br/>
-    └── page_data.csv <br/>
+├── LICENSE
+├── README.md 
+├── cleaned_data 
+│   ├── no_prediction_data.csv 
+│   ├── wp_wpds_countries-no_match.csv 
+│   └── wp_wpds_politicians_by_country.csv 
+├── hcds-a2-bias.ipynb 
+├── src 
+│   └── hcds-a2-bias.ipynb 
+└── unclean_data 
+    ├── WPDS_2020_data.csv 
+    └── page_data.csv '''
 
